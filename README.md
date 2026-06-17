@@ -30,5 +30,6 @@ An automated data cleaning, schema enforcement, and analytical ingestion pipelin
 ├── requirements.txt
 ├── data/
 │   └── concert_tickets.csv
-└── src/
-    └── clean_pipeline.py
+│   └── concert_tickets_cleaned.csv
+└── notebooks/
+    └── ticket_sales_cleaning.ipynb
