@@ -40,6 +40,7 @@ An automated data cleaning, schema enforcement, and analytical ingestion pipelin
 │   └── concert_tickets_cleaned.csv
 └── notebooks/
     └── ticket_sales_cleaning.ipynb
+```
 
 ## Future Roadmap
 
