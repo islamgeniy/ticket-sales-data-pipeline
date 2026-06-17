@@ -23,6 +23,13 @@ An automated data cleaning, schema enforcement, and analytical ingestion pipelin
 * **futbol**: 291,647,940 UZS
 * **stendap**: 153,214,918 UZS
 
+### 2. Top 5 Artists by Rating
+* **muhabbat shamayeva**: 4.28
+* **ulugbek rahmatullayev**: 4.27
+* **doniyor otajonov**: 4.26
+* **jasur umirov**: 4.26
+* **navruz gala shou**: 4.25
+
 ## Pipeline Architecture
 ```text
 ├── .gitignore
@@ -33,3 +40,8 @@ An automated data cleaning, schema enforcement, and analytical ingestion pipelin
 │   └── concert_tickets_cleaned.csv
 └── notebooks/
     └── ticket_sales_cleaning.ipynb
+
+## Future Roadmap
+
+- [ ] **Code Refactoring & Readability:** Modularize the cleaning pipeline into explicit design patterns, enhance inline documentation, and strictly enforce PEP 8 compliance.
+- [ ] **Advanced Data Visualization:** Integrate modern visualization libraries (such as Seaborn and Matplotlib) to construct interactive distribution and revenue performance dashboards.
